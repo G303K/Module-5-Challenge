@@ -1,47 +1,100 @@
-# Module 03 Mini-Project: Rock, Paper, Scissors
+# 03 JavaScript: Password Generator
 
-In this activity, you will work with a group to build a game using only JavaScript.
+## Your Task
 
-## Instructions
+This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
 
-The completed application should meet the following criteria:
+The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
 
-* As a user, I want to play Rock, Paper, Scissors against an automated opponent.
+## User Story
 
-* As a user, I can enter R, P, or S to signify my choice of rock, paper, or scissors.
+```
+AS AN employee with access to sensitive data
+I WANT to randomly generate a password that meets certain criteria
+SO THAT I can create a strong password that provides greater security
+```
 
-* As a user, I expect the computer to choose R, P, or S in return.
+## Acceptance Criteria
 
-* As a user, I want the option to play again whether I win or lose.
+```
+GIVEN I need a new, secure password
+WHEN I click the button to generate a password
+THEN I am presented with a series of prompts for password criteria
+WHEN prompted for password criteria
+THEN I select which criteria to include in the password
+WHEN prompted for the length of the password
+THEN I choose a length of at least 8 characters and no more than 128 characters
+WHEN asked for character types to include in the password
+THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
+WHEN I answer each prompt
+THEN my input should be validated and at least one character type should be selected
+WHEN all prompts are answered
+THEN a password is generated that matches the selected criteria
+WHEN the password is generated
+THEN the password is either displayed in an alert or written to the page
+```
 
-* As a user, I want to see my total wins, ties, and losses after each round.
+## Mock-Up
 
-### Specifications
+The following image shows the web application's appearance and functionality:
 
-* Must use the `alert()`, `confirm()`, and `prompt()` methods to collect user input and display information to the user.
+![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
 
-* The computer's selection must be random to ensure a fair game.
+## Grading Requirements
 
-## 💡 Notes
+> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
+>
+> * A repository that has no code
+>
+> * A repository that includes a unique name but nothing else
+>
+> * A repository that includes only a README file but nothing else
+>
+> * A repository that only includes starter code
 
-Refer to the documentation:
+This Challenge is graded based on the following criteria: 
 
-* [MDN Web Docs on window.alert()](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert)
+### Technical Acceptance Criteria: 40%
 
-* [MDN Web Docs on window.confirm()](https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm)
+* Satisfies all of the preceding acceptance criteria.
 
-* [MDN Web Docs on window.prompt()](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
+### Deployment: 32%
 
-* [MDN Web Docs on Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+* Application deployed at live URL.
 
-## 🏆 Bonus
+* Application loads with no errors.
 
-If you have completed this activity, work through the following challenge with your group to further your knowledge:
+* Application GitHub URL submitted.
 
-* How can you customize the appearance of the `alert()`, `confirm()`, and `prompt()` dialog boxes?
+* GitHub repository that contains application code.
 
-Use [Google](https://www.google.com) or another search engine to research this.
+### Application Quality: 15%
 
----
+* Application user experience is intuitive and easy to navigate.
 
+* Application user interface style is clean and polished.
+
+* Application resembles the mock-up functionality provided in the Challenge instructions.
+
+### Repository Quality: 13%
+
+* Repository has a unique name.
+
+* Repository follows best practices for file structure and naming conventions.
+
+* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+
+* Repository contains multiple descriptive commit messages.
+
+* Repository contains quality readme file with description, screenshot, and link to deployed application.
+
+## Review
+
+You are required to submit the following for review:
+
+* The URL of the deployed application.
+
+* The URL of the GitHub repository, with a unique name and a readme describing the project.
+
+- - -
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
