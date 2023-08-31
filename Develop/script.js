@@ -1,13 +1,23 @@
 // Wrap all code that interacts with the DOM in a call that waits until HTML is loaded
 $(document).ready(function () {
-  
   // Add an event listener for click events on the save button allowing you to save user inputwhen the button is clicked
   $(document).ready(function () {
     $(".saveBtn").on("click", function () {});
   });
 
-  // Apply the "past", "present", or "future" class to each time block based on the current hour.
+  $(".saveBtn").on("click", function () {
+    // Get the user input from the textarea within the same time block
+    var userInput = $(this).siblings(".description").val();
+
+    // Get the ID of the time block (e.g., "hour-9")
+    var timeBlockId = $(this).parent().attr("id");
+
+    // Save the user input to local storage with the time block ID as the key
+    localStorage.setItem(timeBlockId, userInput);
+  });
+
   $(document).ready(function () {
+    // Apply the "past", "present", or "future" class to each time block based on the current hour.
     var currentHour = dayjs().hour();
 
     $(".time-block").each(function () {
@@ -41,4 +51,3 @@ $(document).ready(function () {
     $("#currentDay").text(currentDate);
   });
 });
-

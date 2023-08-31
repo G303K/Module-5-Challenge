@@ -1,8 +1,10 @@
+/* Set default font and font size for the entire document */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
 }
 
+/* Styling for text input areas */
 textarea {
   background: transparent;
   border: none;
@@ -12,39 +14,47 @@ textarea {
   padding: 10px;
 }
 
+/* Preserve line breaks and wrap text for descriptions */
 .description {
   white-space: pre-wrap;
 }
 
+/* Styling for time blocks */
 .time-block {
   border-radius: 15px;
 }
 
+/* Styling for rows */
 .row {
   border-top: 1px solid white;
 }
 
+/* Styling for specific hour blocks */
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
 
+/* Styling for past time blocks */
 .past {
   background-color: #d3d3d3;
   color: white;
 }
 
+/* Styling for present time blocks */
 .present {
   background-color: #ff6961;
   color: white;
 }
 
+/* Styling for future time blocks */
 .future {
   background-color: #77dd77;
   color: white;
 }
 
+/* Styling for save button */
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -53,6 +63,7 @@ textarea {
   color: white;
 }
 
+/* Hover effect for save button icon */
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
