@@ -1,99 +1,63 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Module 5 Challenge:
 
-## Your Task
+## Badges
 
-Create a simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm) by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+## Table of Contents
 
-## User Story
+- [License](#license)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Questions?](#questions)
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+## License
 
-## Acceptance Criteria
+Read more about MIT here:
+[MIT](https://opensource.org/licenses/MIT)
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours of 9am&ndash;5pm
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+## Description
 
-The following animation demonstrates the application functionality:
+This application is a homework assignment for the MSU Coding Bootcamp.
+In this challange we were tasked with refactoring existing code to allow a user to create have a real-time work day scheduler from 9am to 5pm.
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+The user will be able to save their inputs to the page. Past, present, and future times will all be color-coded accordingly. 
 
-## Grading Requirements
+## Deployed application
+- https://g303k.github.io/Module-5-Challenge/
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
 
-This Challenge is graded based on the following criteria:
+ ![05-third-party-apis-homework-demo](https://github.com/G303K/Module-5-Challenge/assets/139593153/614cfb78-7226-49dc-b19c-31d71a745884)
 
-### Technical Acceptance Criteria: 40%
+## Installation
 
-* Satisfies all of the above acceptance criteria plus the following:
+Required applications:
+- Visual Studio Code: (https://code.visualstudio.com/)
+- Git for MAC/Windows/Linux: (https://git-scm.com/downloads)
 
-  * Uses a date utility library to work with date and time
+## Usage
 
-### Deployment: 32%
+To use, first download the above required applications in [Installation](#installation).
 
-* Application deployed at live URL
+- Clone the repository to your local machine.
+- After cloning the repository, open the directory using Visual Studio Code.
+- To view content used, expand the MODULE-5-CHALLENGE folder. 
 
-* Application loads with no errors
+## Contributors:
+- Homework code source and instruction: https://git.bootcampcontent.com/Michigan-State-University/MSU-VIRT-FSF-PT-07-2023-U-LOLC
 
-* Application GitHub URL submitted
+- Homework help: 
 
-* GitHub repo contains application code
+Classmates:     
+- https://github.com/mrsargent00
+- https://github.com/benrodriguezmoran
+- https://github.com/kylesunman
 
-### Application Quality: 15%
 
-* Application user experience is intuitive and easy to navigate
+  ## Questions?
 
-* Application user interface style is clean and polished
+  ### Reach me here:
 
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+* Github https://github.com/G303K
+* Email: micder18@gmail.com
